@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: ;
+    min-height: 100vh;
+    background: url('../images/lightblue.jfif') no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+  }
+  
+  h1 {
+    color: maroon;
+    margin-left: 40px;
+  }
+  
+  /* Additional CSS for the container layout */
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .column {
+    flex: 25%;
+    padding: 0 15px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    margin-bottom: 20px;
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+  
+  /* Additional styles for the link and paragraph */
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: maroon;
+  }
+  
+  p {
+    color: black;
+    margin-top: 5px;
+  }

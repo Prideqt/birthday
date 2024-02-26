@@ -1,0 +1,14 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: ;
+    min-height: 100vh;
+    background: url('../images/1.jpg') no-repeat;
+    background-position: center;
+    margin: 0;
+}
+
+p {
+    letter-spacing: 5px;
+  }
+  
